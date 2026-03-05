@@ -14,4 +14,3 @@ class TV(Devise):
 my_devise = [Lamp(), TV()]
 for a in my_devise:
     a.turn_on()
-1
