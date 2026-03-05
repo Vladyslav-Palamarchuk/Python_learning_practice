@@ -1,4 +1,4 @@
-class BankAccount():
+class BankAccount:
     def __init__(self, name, balance):
         self.name = name
         self.balance = balance
@@ -16,4 +16,4 @@ class BankAccount():
 
 user1 = BankAccount("Олексій", 2000)
 user1.deposit(500)
-user1.withdraw(2700)
+user1.withdraw(2500)
